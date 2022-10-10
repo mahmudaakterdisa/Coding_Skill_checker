@@ -1,0 +1,22 @@
+.courses-container {
+    /* width: 18rem; */
+}
+
+/* .courses-container img {
+    width: 100%;
+    margin-left: 20%;
+    border-radius: 5px;
+} */
+
+
+.courses-container img {
+    width: 100%;
+    height: 50vh;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}

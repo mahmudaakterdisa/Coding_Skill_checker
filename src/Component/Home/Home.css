@@ -1,0 +1,17 @@
+.home-container {
+    margin-top: 5%;
+}
+
+
+.overview-container {
+    font-size: larger;
+    color: rgb(216, 18, 51);
+}
+
+
+.course-container {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
