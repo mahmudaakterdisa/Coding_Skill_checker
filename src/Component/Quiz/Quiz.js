@@ -8,12 +8,28 @@ import './Quiz.css'
 const Quiz = ({ question }) => {
     // console.log(question);
 
+    const showanswer = (correctAnswer) => {
+        const correctResult = question.correctAnswer;
+
+
+        if (correctResult === correctAnswer) {
+
+            alert("Good job!")
+        }
+        else {
+            alert("Incorrect answer!")
+        }
+
+    }
+
     return (
         <div className='eachquestion-container'>
             <div className='quiz-container'>
                 <h3> {question.question}</h3>
+
+                {/* to show correct anwer after clicking icon */}
                 <div>
-                    <FontAwesomeIcon icon={faEye} />
+                    <FontAwesomeIcon onClick={() => alert(question.correctAnswer)} icon={faEye} />
                 </div>
 
 
@@ -25,7 +41,7 @@ const Quiz = ({ question }) => {
             <div>
                 {
 
-                    question.options.map(option => <Option key={option.id} option={option}></Option>)
+                    question.options.map(option => <Option key={option.id} option={option} showanswer={showanswer}></Option>)
 
                 }
             </div>

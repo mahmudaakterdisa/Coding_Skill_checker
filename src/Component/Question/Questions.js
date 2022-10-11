@@ -5,7 +5,7 @@ import './Question.css'
 
 const Questions = () => {
     const question = useLoaderData();
-    console.log(question)
+    // console.log(question)
     const { questions, name, options } = question.data;
     return (
         <div className='question-container'>
