@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Option from '../Option/Option';
 import './Quiz.css'
 
 const Quiz = ({ question }) => {
-    // console.log(question);
+
 
     const showanswer = (correctAnswer) => {
         const correctResult = question.correctAnswer;
@@ -14,10 +16,13 @@ const Quiz = ({ question }) => {
 
         if (correctResult === correctAnswer) {
 
-            alert("Good job!")
+
+            toast("Good job!")
         }
         else {
-            alert("Incorrect answer!")
+
+            toast("Incorrect answer!")
+
         }
 
     }
