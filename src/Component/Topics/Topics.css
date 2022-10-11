@@ -1,0 +1,37 @@
+.topic-container {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.courses-container {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+
+
+
+    .courses-container {
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
+
+/* large screen */
+@media only screen and (min-width: 768px) {
+
+
+
+
+    .courses-container {
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}

@@ -6,7 +6,7 @@ import './Statistics.css';
 
 const Statistics = () => {
     const chart = useLoaderData();
-    console.log(chart.data)
+
 
     return (
 
@@ -23,12 +23,7 @@ const Statistics = () => {
             </div>
 
 
-            {/* <BarChart width={1000} height={500} data={chart.data}>
-                <Bar dataKey="total" fill="#006400" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip></Tooltip>
-            </BarChart> */}
+
 
 
         </div>

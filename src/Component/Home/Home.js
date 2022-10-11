@@ -11,9 +11,6 @@ const Home = () => {
 
 
 
-
-
-
     return (
         <div className='home-container'>
             <div className='overview-container'>
@@ -22,9 +19,8 @@ const Home = () => {
             <div className='course-container'>
 
                 {
-                    getdata.data.map(course => <AvaiableTopics key={course.id} course={course}></AvaiableTopics>
+                    getdata.data.map(course => <AvaiableTopics key={course.id} course={course}></AvaiableTopics>)
 
-                    )
                 }
 
 

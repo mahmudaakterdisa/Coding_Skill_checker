@@ -1,37 +1,30 @@
-.card-container {
+.showtopics-container {
     width: 100%;
 }
 
-.card-container h5 {
-    padding-top: 30%;
-}
-
-.courses-container {
+.alltopics-container {
     width: 80%;
     margin: 5% 10%;
 }
 
-.courses-container img {
+.alltopics-container img {
     width: 100%;
     height: 50vh;
 }
 
-.courses-container a {
+.alltopics-container a {
     color: black;
     border: 1px solid pink;
     background-color: white;
-    /* background-color: lightpink; */
 }
 
-
-
 @media only screen and (max-width: 576px) {
-    .courses-container {
+    .alltopics-container {
         width: 80%;
         margin: 5% 10%;
     }
 
-    .courses-container img {
+    .alltopics-container img {
         width: 100%;
         height: 40vh;
     }
@@ -40,12 +33,12 @@
 /* large screen */
 @media only screen and (min-width: 768px) {
 
-    .courses-container {
+    .alltopics-container {
         width: 80%;
         margin: 5% 10%;
     }
 
-    .courses-container img {
+    .alltopics-container img {
         width: 100%;
         height: 50vh;
     }
