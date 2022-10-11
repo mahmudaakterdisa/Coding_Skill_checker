@@ -12,11 +12,11 @@ const Header = () => {
                 <h1>Code-krieg</h1>
             </div>
             <div className='links-container'>
-                <Link to='home'>Home</Link>
+                <Link to='/home'>Home</Link>
                 <Link to='topics'>Topics</Link>
                 <Link to='statistics'>Statistics</Link>
                 <Link to='blog'>Blog</Link>
-                <Link to='about'>About</Link>
+
             </div>
 
 
