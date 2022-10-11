@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Availabletopics.css';
 
 const AvaiableTopics = ({ course }) => {
-    const { logo, name } = course;
+    // console.log(course)
+    const { logo, name, id } = course;
     return (
         // <div className='courses-container'>
         //     <img src={logo} alt="" />
@@ -21,7 +23,7 @@ const AvaiableTopics = ({ course }) => {
             <div class="card-body">
                 <h5 class="card-title">{name}</h5>
 
-                <a href="#" className="btn btn-primary">Examine your knowledge</a>
+                <Link to={`/course/${id}`} className="btn btn-primary">Examine your knowledge</Link>
             </div>
         </div>
     );
