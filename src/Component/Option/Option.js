@@ -1,9 +1,10 @@
 import React from 'react';
+import './Option.css'
 
 const Option = ({ option }) => {
 
     return (
-        <div>
+        <div className='option-container'>
             {/* <div className="input-group">
 
                 <div className="input-group-text">
@@ -15,7 +16,7 @@ const Option = ({ option }) => {
 
             </div> */}
             <input type="radio" id="vehicle1" name="vehicle1" value="Bike" />
-            <label for="vehicle1"> <h5>{option}</h5></label><br></br>
+            <label for="vehicle1"> <h5 className='option-style'>{option}</h5></label><br></br>
         </div>
     );
 };
