@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import { useLoaderData, useRouteLoaderData } from 'react-router-dom';
 import { Questionloder } from '../../Loder/Questionloder';
 import AvaiableTopics from '../Courses/AvaiableTopics';
+import Statistics from '../Statistics/Statistics';
 import Topics from '../Topics/Topics';
 import './Home.css'
 
 const Home = () => {
     const getdata = useLoaderData();
 
-    // const { } = getdata;
+    console.log(getdata.data);
+    // const chart = getdata.data;
+
 
 
     return (
@@ -24,7 +27,9 @@ const Home = () => {
                     )
                 }
 
-
+                {/* <div>
+                    <Statistics chart={chart}></Statistics>
+                </div> */}
             </div>
 
         </div>
