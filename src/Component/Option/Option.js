@@ -4,7 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './Option.css'
 
 const Option = ({ option, showanswer }) => {
-    // console.log(option);
+
 
     return (
         <div className='option-container'>

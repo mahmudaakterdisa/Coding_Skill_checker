@@ -3,7 +3,26 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    color: rgb(250, 131, 151);
 
 }
 
-.eachquestion-container {}
+
+
+@media only screen and (max-width: 576px) {
+    .quiz-container {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .quiz-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(250, 131, 151);
+
+    }
+}

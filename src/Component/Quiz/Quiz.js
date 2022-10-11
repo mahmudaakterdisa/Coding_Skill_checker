@@ -43,7 +43,7 @@ const Quiz = ({ question }) => {
 
 
 
-            <div>
+            <div className='eachquestion-container'>
                 {
 
                     question.options.map(option => <Option key={option.id} option={option} showanswer={showanswer}></Option>)

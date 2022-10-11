@@ -1,11 +1,5 @@
 .option-container {
-    /* background-color: rgb(238, 131, 9); */
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
+
     background-color: gray;
     color: white;
-}
-
-.option-style {
-    /* margin-left: 10%; */
 }
