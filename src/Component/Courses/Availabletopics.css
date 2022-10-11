@@ -1,22 +1,48 @@
-/* .courses-container {
-    background-color: black;
-} */
-
-/* .courses-container img {
+.card-container {
     width: 100%;
-    margin-left: 20%;
-    border-radius: 5px;
-} */
+}
 
+.courses-container {
+    width: 80%;
+    margin: 5% 10%;
+}
 
 .courses-container img {
     width: 100%;
     height: 50vh;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
+.courses-container a {
+    color: black;
+    border: 1px solid pink;
+    background-color: white;
+    /* background-color: lightpink; */
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .courses-container {
+        width: 80%;
+        margin: 5% 10%;
+    }
+
+    .courses-container img {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+/* large screen */
+@media only screen and (min-width: 768px) {
+
+    .courses-container {
+        width: 80%;
+        margin: 5% 10%;
+    }
+
+    .courses-container img {
+        width: 100%;
+        height: 50vh;
+    }
 }

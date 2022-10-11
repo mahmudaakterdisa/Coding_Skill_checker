@@ -1,11 +1,14 @@
 .home-container {
+    width: 100%;
     margin-top: 5%;
 }
 
 
 .overview-container {
+    width: 100%;
     font-size: larger;
-    color: rgb(216, 18, 51);
+    /* color: rgb(216, 18, 51); */
+    color: white;
 }
 
 
@@ -14,4 +17,46 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .overview-container {
+        width: 100%;
+        font-size: 25px;
+        /* color: rgb(216, 18, 51); */
+        color: chocolate;
+        padding: 15px;
+    }
+
+
+    .course-container {
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
+
+/* large screen */
+@media only screen and (min-width: 768px) {
+
+    .overview-container {
+        width: 100%;
+        font-size: 30px;
+        /* color: rgb(216, 18, 51); */
+        color: white;
+
+        background-color: lightpink;
+
+        padding: 15px;
+    }
+
+
+    .course-container {
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
 }

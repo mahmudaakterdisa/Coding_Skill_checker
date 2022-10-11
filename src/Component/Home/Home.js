@@ -9,8 +9,8 @@ import './Home.css'
 const Home = () => {
     const getdata = useLoaderData();
 
-    console.log(getdata.data);
-    // const chart = getdata.data;
+
+
 
 
 
@@ -27,9 +27,7 @@ const Home = () => {
                     )
                 }
 
-                {/* <div>
-                    <Statistics chart={chart}></Statistics>
-                </div> */}
+
             </div>
 
         </div>

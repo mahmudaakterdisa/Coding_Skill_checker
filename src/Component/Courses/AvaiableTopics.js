@@ -18,13 +18,13 @@ const AvaiableTopics = ({ course }) => {
 
         // </div>
 
-        <div>
+        <div className='card-container'>
             <div className="card  courses-container">
                 <img src={logo} className="card-img-top img-thumbnail bg-dark" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">{name}</h5>
 
-                    <Link to={`/course/${id}`} className="btn btn-primary">Examine your knowledge</Link>
+                    <Link to={`/course/${id}`} className="btn btn-light">Examine your knowledge</Link>
                 </div>
 
             </div>

@@ -7,20 +7,25 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <nav className='nav-container'>
-            <div className='site-name'>
-                <h1>Code-krieg</h1>
-            </div>
-            <div className='links-container'>
-                <Link to='/home'>Home</Link>
-                <Link to='topics'>Topics</Link>
-                <Link to='statistics'>Statistics</Link>
-                <Link to='blog'>Blog</Link>
 
-            </div>
+        <div className='header-container'>
+            <nav className='nav-container'>
+                <div className='site-name'>
+                    <h1>Code-krieg</h1>
+                </div>
+                <div className='links-container'>
+                    <Link to='/home'>Home</Link>
+                    <Link to='topics'>Topics</Link>
+                    <Link to='statistics'>Statistics</Link>
+                    <Link to='blog'>Blog</Link>
+
+                </div>
 
 
-        </nav>
+            </nav>
+        </div>
+
+
     );
 };
 
